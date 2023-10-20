@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<div id="main_content">
+			<div class="header">
+				<h1>
+					Compound Interest Calculator by c44rson
+				</h1>
+			</div>
+
+			<div>
+				<section>
+					<p>
+						<input id="principal" /> principal
+						<img
+							src="images/principal.jpg"
+							alt="principal of school"
+						/>
+					</p>
+				</section>
+			</div>
+
+			<div>
+				<section>
+					<p>
+						<input id="rate" /> rate <img src="images/rate.jpeg"
+						alt="stopwatch" /
+					</p>
+				</section>
+			</div>
+
+			<div>
+				<section>
+					<p>
+						<select id="compounded">
+							<option value="365"> daily </option>
+							<option value="52"> weekly </option>
+							<option value="26"> bi-weekly </option>
+							<option value="12"> monthly </option>
+							<option value="6"> bi-monthly </option>
+							<option value="4"> quarterly </option>
+							<option value="3"> tri-annually </option>
+							<option value="2"> bi-annually </option>
+							<option value="1"> annually </option>
+						</select>
+						# of times compounded
+						<img src="images/pancake.jpeg" alt="pancakes" />
+					</p>
+				</section>
+			</div>
+
+			<div>
+				<section>
+					<p>
+						<input id="years" type="number" /> years
+						<img src="images/yaears.jpeg" alt="ear" />
+					</p>
+				</section>
+			</div>
+
+			<div>
+				<section>
+					<p>result = $<span id="result">?</span></p>
+				</section>
+			</div>
+
+			<div class="footer">
+				<a href="https://x4pnyv.csb.app/">Code Sandbox Live Version</a>
+			</div>
+		</div>
+	</body>
+
+	<script src="sketch.js"></script>
+</html>
